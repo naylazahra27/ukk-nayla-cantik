@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pengaduan extends Model
 {
-    public $timestamps = false;
+    // public $timestamps = false;
     protected $table = 'pengaduan';
     protected $fillable = ['tgl_pengaduan','nik','isi_laporan','foto','status'];
 
